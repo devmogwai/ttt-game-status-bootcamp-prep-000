@@ -43,7 +43,7 @@ def over?(board)
 end
 
 def winner(board)
-  puts board[won?(board)[0]]
+  return board[won?(board)[0]]
 end
 
 board = [" ","X","X"," ","X"," ","X","X","X"]
